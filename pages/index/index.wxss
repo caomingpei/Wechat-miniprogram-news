@@ -1,0 +1,162 @@
+/**
+ * 导航栏
+ */
+.navigation{
+  background-color: #32A0E1;
+  position: fixed;  
+  height: 200rpx;
+  width: 100%;
+  z-index: 66;
+}
+
+/**
+ * 导航栏图标
+ */
+.navi-icon{
+  position: absolute;
+  top: 66rpx;
+  left: 20rpx;
+  width: 60rpx;
+  height: 60rpx; 
+}
+
+/**
+ * 导航栏标题
+ */
+.navi-title{
+  position: absolute;
+  top:75rpx;
+  left:85rpx;
+  font-family: "Heiti SC","Droidsansfallback";
+  font-size: 35rpx;
+  line-height: 49rpx;
+  color: white;
+}
+
+.newsTabsWrapper{
+  position: relative;
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-end;
+  top: 136rpx;
+}
+
+.newsTabs{
+  position: relative;
+  width: 120 rpx;
+  font-size: 32rpx;
+  line-height: 45rpx;
+  color: white;
+  opacity: 0.8;
+}
+
+.selected {
+  font-size: 36rpx;
+  line-height: 50rpx;
+}
+
+.selectedLine {
+  position: absolute;
+  left: 20rpx;
+  right: 20rpx;
+  border-bottom: 4rpx solid white ;
+}
+
+.topWrapper{
+  position: relative;
+  top: 200rpx;
+}
+
+.topBg{
+  z-index:-1;
+  width: 100%;
+  height:410rpx;
+  display: block;
+}
+
+.frame{
+  position: absolute;
+  height: 353rpx;
+  width: 694rpx;
+  top: 0rpx;
+  left: 0rpx;
+  border: 30rpx solid rgba(255,255,255,0.7);
+  background-clip: padding-box;
+}
+
+.topDes{
+  position: absolute;
+  color:aliceblue;
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 30rpx;
+  line-height: 42rpx;
+  text-align: left;
+  top: 256rpx;
+  padding: 0 60rpx;
+  opacity: 0.9; 
+  z-index: 1;
+}
+
+.desBg{
+  position: absolute;
+  background-color: #2b4837;
+  opacity: 0.6;
+  top: 253rpx;
+  left: 30rpx;
+  height: 130rpx;
+  width: 694rpx;
+}
+
+.topTime{
+  padding-left: 30rpx;
+  opacity: 0.7;
+}
+
+.topSource{
+  opacity: 0.7;
+}
+
+.newsListWrapper{
+  position: relative;
+  top: 200rpx;
+}
+
+.newsListItems{
+  display: flex;
+  align-items: center;
+  border-bottom: 3rpx solid #2b4837;
+  padding: 26rpx 0;
+  margin: 0 30rpx;
+}
+
+.newsInfo {
+ width: 530rpx; 
+}
+
+.listPic{
+  width: 180rpx;
+  height: 120rpx;
+  border-radius: 6rpx;
+}
+
+.newsTitle {
+  font-family: "Heiti SC","Droidsansfallback";
+  font-size: 32rpx;
+  line-height: 45rpx;
+  padding-right: 10rpx;
+  margin-bottom: 10rpx; 
+}
+
+.newsDes {
+  display: flex;
+  font-size: 25rpx;
+  line-height: 35rpx;
+  font-family: "Heiti SC","Droidsansfallback";
+  text-align: left;
+  margin-right: 20rpx;
+  opacity: 0.7;
+}
+.newsTime{
+  padding-left: 30rpx;
+}
